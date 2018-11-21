@@ -13,4 +13,4 @@ Su windows digitare da powershell:
 
 cd "C:\Program Files\MongoDB\Server\4.0\bin"
 
-mongod.exe --dbpath "C:\xampp\htdocs\udemy\node-js\mongo-data" (path del db mongo)
+.\mongod.exe --dbpath "C:\xampp\htdocs\udemy\node-js\mongo-data" (path del db mongo)
