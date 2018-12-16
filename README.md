@@ -14,9 +14,11 @@ Attenzione che potrebbe non funzionare se è stato disattivato l'addons che aggi
 ## Come avviare il processo server mongodb in locale
 Su windows digitare da powershell:
 
-`cd "C:\Program Files\MongoDB\Server\4.0\bin"
+```
+cd "C:\Program Files\MongoDB\Server\4.0\bin"
+.\mongod.exe --dbpath "C:\xampp\htdocs\udemy\node-js\mongo-data"
 
-.\mongod.exe --dbpath "C:\xampp\htdocs\udemy\node-js\mongo-data"`
+```
 
 (cambiare il path del db mongo in base al path del proprio database)
 
