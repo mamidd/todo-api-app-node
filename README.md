@@ -4,6 +4,23 @@ Un' applicazione in Node.js che permette di gestire dei post-it.
 ## Come avviare l'app in locale
 Per avviare l'app in locale, avviare prima un db mongo. Se non è presente sulla macchina, installare la versione 4.0 e settare il path del database. Il path del database sarà poi usato per avviare il processo server di mongodb.
 
+Creare un file config.json nella cartella server/config. Il config.json deve essere di questo tipo:
+
+```
+{
+  "test":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoAppTest",
+    "JWT_SECRET": "soif98eijo87!doi"
+  },
+  "development":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoApp",
+    "JWT_SECRET": "osiod93jj3ook1-!"
+  }
+}
+```
+
 ## Come avviare l'app su Heroku
 Per utilizzare l'app su heroku usare il seguente url:
 
