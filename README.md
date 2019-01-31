@@ -26,7 +26,7 @@ Per utilizzare l'app su heroku usare il seguente url:
 
 https://stark-bayou-69715.herokuapp.com/ .
 
-Attenzione che potrebbe non funzionare se è stato disattivato l'addons che aggiunge il db mongo per evitare di pagare.
+Attenzione che potrebbe non funzionare se è in manteinance mode per evitare di pagare. Abilitare prima la manteinance mode.
 
 ## Come avviare il processo server mongodb in locale
 Su windows digitare da powershell:
